@@ -1,6 +1,7 @@
-# House Price Prediction
+# PRODIGY_ML_01 — House Price Predictor
 
-A beginner-friendly multiple linear regression project that predicts house sale prices
+**Machine Learning Task 01** (Prodigy InfoTech internship): a beginner-friendly
+multiple linear regression project that predicts house sale prices
 using three features from the **Ames Housing dataset** (Kaggle).
 
 ---
@@ -64,8 +65,9 @@ data/
 ## Setup (Windows PowerShell)
 
 ```powershell
-# 1. Clone or download this project
-cd "path\to\House-price prediction"
+# 1. Clone this project
+git clone https://github.com/an-codes1/PRODIGY_ML_01.git
+cd PRODIGY_ML_01
 
 # 2. Create a virtual environment
 python -m venv venv
@@ -102,7 +104,7 @@ This repository is deployed on [Streamlit Community Cloud](https://share.streaml
 **Live demo:** https://house-price-predictor-egpecb3xtdh8nuek2tgvgr.streamlit.app/
 
 > To deploy: sign in to share.streamlit.io with your GitHub account, click
-> **New app**, select the `house-price-predictor` repository and branch, set the main
+> **New app**, select the `PRODIGY_ML_01` repository and `main` branch, set the main
 > file to `app.py`, and (optional) choose Python **3.12** under **Advanced settings**
 > before clicking **Deploy**. The app loads the committed `models/pipeline.joblib` and
 > `outputs/*.png` — no dataset download is needed on the server.
@@ -135,7 +137,7 @@ jupyter notebook notebooks\house_price_walkthrough.ipynb
 ## Project Structure
 
 ```
-House-price prediction/
+PRODIGY_ML_01/
 ├── app.py                         # Streamlit local demo
 ├── requirements.txt               # Python dependencies (pinned)
 ├── README.md                      # This file
