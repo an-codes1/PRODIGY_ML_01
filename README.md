@@ -98,12 +98,8 @@ python -m src.predict
 ```
 
 ### Launch the Streamlit app on Streamlit Community Cloud
-This repository is set up for deployment on [Streamlit Community Cloud](https://share.streamlit.io).
-When the app is live, the public HTTPS URL appears here:
-
-```
-https://<app-name>.streamlit.app
-```
+This repository is deployed on [Streamlit Community Cloud](https://share.streamlit.io).
+**Live demo:** https://house-price-predictor-egpecb3xtdh8nuek2tgvgr.streamlit.app/
 
 > To deploy: sign in to share.streamlit.io with your GitHub account, click
 > **New app**, select the `house-price-predictor` repository and branch, set the main
