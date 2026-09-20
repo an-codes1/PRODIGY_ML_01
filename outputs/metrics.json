@@ -1,0 +1,15 @@
+{
+  "linear_regression": {
+    "MAE": 34395.8,
+    "RMSE": 51222.58,
+    "R2": 0.6579
+  },
+  "dummy_baseline": {
+    "MAE": 62575.93,
+    "RMSE": 87619.03,
+    "R2": -0.0009
+  },
+  "n_train": 1168,
+  "n_val": 292,
+  "random_state": 42
+}

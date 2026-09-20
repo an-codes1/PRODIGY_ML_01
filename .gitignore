@@ -1,0 +1,46 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Model artifacts and outputs
+# The deployment needs the trusted final pipeline, sanitized metadata, validation
+# metrics, and the two plots. Everything else is regenerated and stays local.
+models/*.joblib
+!models/pipeline.joblib
+models/*.json
+!models/metadata.json
+outputs/*.csv
+outputs/*.png
+!outputs/actual_vs_predicted.png
+!outputs/residual_plot.png
+outputs/*.json
+!outputs/metrics.json
+outputs/*.log
+
+# Dataset files (too large for Git; download from Kaggle)
+data/train.csv
+data/test.csv
+data/sample_submission.csv
+data/data_description.txt
+house-prices-advanced-regression-techniques/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+*.pkl

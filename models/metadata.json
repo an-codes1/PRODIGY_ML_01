@@ -1,0 +1,37 @@
+{
+  "feature_columns": [
+    "GrLivArea",
+    "BedroomAbvGr",
+    "TotalBathrooms"
+  ],
+  "target": "SalePrice",
+  "training_rows": 1460,
+  "dataset_hash": "1e18addf81e5",
+  "training_ranges": {
+    "GrLivArea": {
+      "min": 334.0,
+      "max": 5642.0
+    },
+    "BedroomAbvGr": {
+      "min": 0.0,
+      "max": 8.0
+    },
+    "TotalBathrooms": {
+      "min": 1.0,
+      "max": 6.0
+    }
+  },
+  "timestamp": "2026-09-20T08:45:01.171472+00:00",
+  "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "dependencies": {
+    "pandas": "2.3.3",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.9.1"
+  },
+  "coefficients": {
+    "intercept": 36976.44834025696,
+    "GrLivArea": 94.66424501407216,
+    "BedroomAbvGr": -23244.433814004507,
+    "TotalBathrooms": 30177.981686892417
+  }
+}
