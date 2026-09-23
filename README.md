@@ -101,7 +101,7 @@ python -m src.predict
 
 ### Launch the Streamlit app on Streamlit Community Cloud
 This repository is deployed on [Streamlit Community Cloud](https://share.streamlit.io).
-**Live demo:** https://house-price-predictor-egpecb3xtdh8nuek2tgvgr.streamlit.app/
+**Live demo:** https://appigyml01-efg8e3gp3yjnjkcy2ynhas.streamlit.app/
 
 > To deploy: sign in to share.streamlit.io with your GitHub account, click
 > **New app**, select the `PRODIGY_ML_01` repository and `main` branch, set the main
